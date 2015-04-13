@@ -4,7 +4,7 @@ var express = require('express');
 
 var expressRouter = require('../index.js');
 
-var mockPath = './test/mock.js';
+var mockPath = 'test/mock.js';
 
 describe('', function(){
 

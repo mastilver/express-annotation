@@ -39,7 +39,7 @@ you can register those routes by writing so:
 var expressAnnotation = require('express-annotation');
 var app = require('express')();
 
-expressAnnotation(app, '/controllers/**/*.js', function(err){
+expressAnnotation(app, 'controllers/**/*.js', function(err){
 
     // routes have been added to the express instance
 
