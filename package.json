@@ -2,6 +2,7 @@
   "name": "express-annotation",
   "version": "0.1.0",
   "description": "Bring annotation routing to express",
+  "keywords": ["express", "annotation", "decorator", "router"],
   "main": "index.js",
   "scripts": {
     "test": "mocha"
