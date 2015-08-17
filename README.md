@@ -24,7 +24,7 @@ module.exports.get = fucntion(req, res){
     console.log(req.params.id);
 };
 
-// httpPut()
+// @httpPut()
 // @route('/users/:id')
 module.exports.update = function(req, res){
 
