@@ -20,7 +20,7 @@ module.exports.getAll = function(req, res){
 };
 
 // @route('/users/:id')
-module.exports.get = fucntion(req, res){
+module.exports.get = function(req, res){
     console.log(req.params.id);
 };
 
