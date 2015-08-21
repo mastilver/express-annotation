@@ -12,30 +12,27 @@
 
 given a file `/controllers/user.js`:
 
-```
-
+```js
 // @route('/users')
-module.exports.getAll = function(req, res){
+exports.getAll = function(req, res){
 
 };
 
 // @route('/users/:id')
-module.exports.get = function(req, res){
+exports.get = function(req, res){
     console.log(req.params.id);
 };
 
 // @httpPut()
 // @route('/users/:id')
-module.exports.update = function(req, res){
+exports.update = function(req, res){
 
 };
-
 ```
 
 you can register those routes by writing so:
 
-```
-
+```js
 var expressAnnotation = require('express-annotation');
 var app = require('express')();
 
@@ -45,7 +42,6 @@ expressAnnotation(app, 'controllers/**/*.js', function(err){
 
     app.listen(3030);
 });
-
 ```
 
 ## API
