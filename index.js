@@ -1,9 +1,12 @@
 var annotationRouter = require('annotation-router');
+var toAbsolutePath = require('to-absolute-path');
 
 
-module.exports = function(app, mockPaths, callback){
+module.exports = function(app, paths, callback){
 
-    annotationRouter(mockPaths, function(err, route){
+    paths = toAbsolutePath(paths, 1);
+
+    annotationRouter(paths, function(err, route){
 
         if(err) return callback(err);
 
