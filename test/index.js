@@ -6,7 +6,7 @@ var expressRouter = require('../index.js');
 
 var mockPath = 'mock.js';
 
-describe('', function(){
+describe('register routes', function(){
 
     var app;
 

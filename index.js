@@ -8,11 +8,17 @@ module.exports = function(app, paths, callback){
 
     annotationRouter(paths, function(err, route){
 
-        if(err) return callback(err);
+        if(err) return callCallback(err);
 
         app[route.method.toLowerCase()](route.url, route.action);
     },
     function(err){
-        callback(err);
+        callCallback(err);
     });
+
+    function callCallback(err){
+        if(callback != null){
+            callback(err);
+        }
+    }
 };
