@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/mastilver/express-annotation",
   "dependencies": {
-    "annotation-router": "^0.5.0",
+    "annotation-router": "^0.8.0",
     "to-absolute-path": "^1.0.0"
   },
   "devDependencies": {
