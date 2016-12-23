@@ -29,9 +29,9 @@
   "devDependencies": {
     "coveralls": "^2.11.2",
     "express": "^4.12.3",
-    "istanbul": "^0.3.13",
-    "mocha": "^2.2.4",
-    "should": "^5.2.0",
-    "supertest": "^0.15.0"
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "should": "^11.1.2",
+    "supertest": "^2.0.1"
   }
 }
